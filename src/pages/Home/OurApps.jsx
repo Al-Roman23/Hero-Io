@@ -1,0 +1,48 @@
+import { FiTrendingUp } from "react-icons/fi";
+import { Link, useLoaderData } from "react-router";
+import AppCard from "../../utils/AppCard";
+
+const OurApps = () => {
+  const { apps } = useLoaderData() || {};
+
+  if (!apps || apps.length === 0) {
+    return (
+      <div className="text-center py-10">
+        <h2 className="text-2xl font-semibold text-gray-500">
+          No apps available right now.
+        </h2>
+      </div>
+    );
+  }
+
+  return (
+    <div>
+      <div>
+        <h2 className="text-4xl font-bold text-center text-primary flex justify-center gap-3">
+          Trending Apps
+          <FiTrendingUp size={48} className="text-secondary" />
+        </h2>
+        <p className="text-center text-gray-500">
+          Explore all trending apps on the market developed by us
+        </p>
+      </div>
+
+      <div className="w-11/12 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 my-10 gap-5">
+        {apps.slice(0, 8).map((app) => (
+          <AppCard key={app.id} app={app} />
+        ))}
+      </div>
+
+      <div className="text-center">
+        <Link
+          to="/apps"
+          className="btn btn-wide text-white hover:shadow-xl bg-gradient-to-tl to-[#632EE3] from-[#9F62F2]"
+        >
+          Show All
+        </Link>
+      </div>
+    </div>
+  );
+};
+
+export default OurApps;

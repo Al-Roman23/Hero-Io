@@ -4,6 +4,10 @@
 
 Hero Apps is a modern web application that provides a centralized platform for discovering, installing, and managing productivity apps. Users can explore trending and all available applications, track installations, view app details, ratings, and reviews, and manage their installed apps directly from the platform.
 
+Repository Link: https://github.com/Al-Roman23/Hero-Io
+
+Live Link: https://heroio23.netlify.app/
+
 ## Features
 
 - Browse trending and all available apps!

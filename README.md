@@ -23,6 +23,48 @@ Live Link: https://heroio23.netlify.app/
 - REACT ROUTER
 - TAILWIND CSS
 - REACT ICONS
-- REACT TOASTIFY
 - JAVASCRIPT
-- JSON
+
+### Installation!
+1. Clone the frontend repository!  
+```bash
+git clone https://github.com/Al-Roman23/Hero-Io.git
+cd Hero-Io
+   ```
+2. **Install dependencies**!
+````md
+npm install!
+````
+
+3. **Set up environment variables**!
+   Create a `.env` file in the root directory!
+   
+```env
+VITE_API_URL=http://localhost:5000!
+```
+
+4. **Run the development server**!
+5. 
+```bash
+npm run dev!
+```
+
+5. **Build for production**!
+6. 
+```bash
+npm run build!
+```
+
+### Deployment!
+
+1. **Build the project**!
+2. 
+```bash
+npm run build!
+```
+
+2. **Deploy to Firebase**!
+3. 
+```bash
+firebase deploy!
+```

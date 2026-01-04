@@ -11,7 +11,7 @@ Live Link: https://heroio23.netlify.app/
 ## Features
 
 - Browse trending and all available apps!
-- View detailed app information including downloads, ratings, reviews, and description!
+- View detailed app information, including downloads, ratings, reviews, and description!
 - Install and uninstall apps with a local storage-based system!
 - Search and sort apps by size, ratings, and downloads!
 - Responsive design for desktop and mobile devices!
@@ -21,8 +21,6 @@ Live Link: https://heroio23.netlify.app/
 
 - REACT.JS
 - REACT ROUTER
-- TAILWIND CSS
-- REACT ICONS
 - JAVASCRIPT
 
 ### Installation!
@@ -44,13 +42,11 @@ VITE_API_URL=http://localhost:5000!
 ```
 
 4. **Run the development server**!
-5. 
 ```bash
 npm run dev!
 ```
 
 5. **Build for production**!
-6. 
 ```bash
 npm run build!
 ```
@@ -58,13 +54,11 @@ npm run build!
 ### Deployment!
 
 1. **Build the project**!
-2. 
 ```bash
 npm run build!
 ```
 
 2. **Deploy to Firebase**!
-3. 
 ```bash
 firebase deploy!
 ```
